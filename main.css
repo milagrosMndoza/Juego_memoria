@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Black+Ops+One|Chelsea+Market|Fredericka+the+Great|Londrina+Solid|Sigmar+One');
 
-    body{
-        padding-left: 10%;
-        background-image: url(../img/fondo.gif);
-        background-size: cover;
+body{
+    padding-left: 10%;
+    background-image: url(img/fondo.gif);
+	background-size: cover;
     }
 
-    h1{
-		text-align: center;
-		color: #f81057;
-        font-size: 60px;
-        font-family: 'Londrina Solid', cursive;
-        text-shadow: #f11cf1 6px 0;
-    }
+h1{
+	text-align: center;
+	color: #f81057;
+    font-size: 60px;
+    font-family: 'Londrina Solid', cursive;
+    text-shadow: #f11cf1 6px 0;
+}
 /*.tabla{
 	
 }*/

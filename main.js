@@ -27,11 +27,17 @@ function voltearCartaMemoria(carta,val){
 		if(valor_memoria.length == 0){
 			valor_memoria.push(val);
 			memoria_carta_ids.push(carta.id);
+		
 		} else if(valor_memoria.length == 1){
 			valor_memoria.push(val);
 			memoria_carta_ids.push(carta.id);
 			if(valor_memoria[0] == valor_memoria[1]){
 				carta_volteada += 2;
+				swal(
+			  'Correcto!',
+			  'las letras coinciden!',
+			  'success'
+			);
 				// Despejando los dos arrays
 				valor_memoria = [];
             	memoria_carta_ids = [];
@@ -57,6 +63,11 @@ function voltearCartaMemoria(carta,val){
 				    // Despejando los dos arrays
 				    valor_memoria = [];
             	    memoria_carta_ids = [];
+						swal(
+							  'Oops...',
+							  'Las letras no coiinciden vuelve a intentarlo!',
+							  'error'
+							)
 				}
 				setTimeout(voltearAtras, 750);
 			}
