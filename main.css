@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Black+Ops+One|Chelsea+Market|Fredericka+the+Great|Londrina+Solid|Sigmar+One');
+
+    body{
+        padding-left: 10%;
+        background-image: url(../img/fondo.gif);
+        background-size: cover;
+    }
+
+    h1{
+		text-align: center;
+		color: #f81057;
+        font-size: 60px;
+        font-family: 'Londrina Solid', cursive;
+        text-shadow: #f11cf1 6px 0;
+    }
+/*.tabla{
+	
+}*/
+
+div#tabla_juego{
+	background:#f7790e;
+	border:#999 1px solid;
+	width:800px;
+	height:540px;
+	padding:24px;
+	margin:0px auto;
+}
+div#tabla_juego > div{
+	background: url(../img/logo.png) no-repeat;
+	border:#000 1px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+}
