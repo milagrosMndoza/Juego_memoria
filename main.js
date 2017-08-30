@@ -1,9 +1,12 @@
 var array_memoria = ['A','A','B','B','C','C','D','D','E','E','F','F','G','G','H','H','I','I','J','J','K','K','L','L'];
+/*var array_imagenes =["url(img/1.png)"]*/
 var valor_memoria = [];
 var memoria_carta_ids = [];
 var carta_volteada = 0;
 Array.prototype.memoria_carta_embarajar = function(){
-    var i = this.length, j, temp;
+    var i = this.length;
+	var j =this.length;
+	var temp= this.length;
     while(--i > 0){
         j = Math.floor(Math.random() * (i+1));
         temp = this[j];
@@ -56,18 +59,18 @@ function voltearCartaMemoria(carta,val){
 				    // las dos cartas se van a voltear
 				    var carta_1 = document.getElementById(memoria_carta_ids[0]);
 				    var carta_2 = document.getElementById(memoria_carta_ids[1]);
-				    carta_1.style.background = 'url(img/logo.png.png) no-repeat';
+				    carta_1.style.background = 'url(img/logo.png) no-repeat';
             	    carta_1.innerHTML = "";
-				    carta_2.style.background = 'url(img/logo.png.png) no-repeat';
+				    carta_2.style.background = 'url(img/logo.png) no-repeat';
             	    carta_2.innerHTML = "";
 				    // Despejando los dos arrays
 				    valor_memoria = [];
             	    memoria_carta_ids = [];
-						swal(
+					/*	swal(
 							  'Oops...',
 							  'Las letras no coiinciden vuelve a intentarlo!',
 							  'error'
-							)
+							)*/
 				}
 				setTimeout(voltearAtras, 750);
 			}
