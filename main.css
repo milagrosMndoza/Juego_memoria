@@ -26,7 +26,7 @@ div#tabla_juego{
 	margin:0px auto;
 }
 div#tabla_juego > div{
-	background: url(../img/logo.png) no-repeat;
+	background: url(img/logo.png) no-repeat;
 	border:#000 1px solid;
 	width:71px;
 	height:71px;
