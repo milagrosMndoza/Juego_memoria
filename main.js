@@ -66,11 +66,11 @@ function voltearCartaMemoria(carta,val){
 				    // Despejando los dos arrays
 				    valor_memoria = [];
             	    memoria_carta_ids = [];
-					/*	swal(
+						swal(
 							  'Oops...',
 							  'Las letras no coiinciden vuelve a intentarlo!',
 							  'error'
-							)*/
+					)
 				}
 				setTimeout(voltearAtras, 750);
 			}
